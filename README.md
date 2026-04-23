@@ -7,7 +7,7 @@ This system not only executes API requests but also analyzes responses, detects 
 
 ## Live Demo
 
-👉 *Coming soon (deployment in progress)*
+*Coming soon (deployment in progress)*
 
 ---
 
@@ -298,7 +298,8 @@ api-blackbox-simulator/
 
 ### History View
 
-(Add screenshot here)
+<img width="1122" height="1402" alt="image" src="https://github.com/user-attachments/assets/a9b89386-815c-4625-b5e2-e825f99f1aa3" />
+
 
 ---
 
