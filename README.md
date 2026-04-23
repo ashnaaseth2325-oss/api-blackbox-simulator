@@ -288,11 +288,13 @@ api-blackbox-simulator/
 
 ### Analytics Dashboard
 
-(Add screenshot here)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/616e1365-da9e-499d-8119-e4dcd7c3241a" />
+
 
 ### Insights Panel
 
-(Add screenshot here)
+<img width="950" height="1655" alt="image" src="https://github.com/user-attachments/assets/d8aa6de1-412b-42df-8e82-083a797f73a9" />
+
 
 ### History View
 
