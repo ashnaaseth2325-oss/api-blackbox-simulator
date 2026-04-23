@@ -38,6 +38,18 @@ Most API testers tell you *what* happened (status code, response time). This one
   - Empty Body, Null Values, Wrong Data Types, Large Payload, Invalid Endpoint (404)
 - **AbortController cancel** — abort in-flight requests from the UI
 
+---
+
+## Key Highlights
+
+- Rule-based API validation engine
+- Failure insights with severity classification
+- MongoDB-backed history + analytics
+- Exportable test results (JSON / CSV)
+- Abortable requests with real-time feedback
+- Structured backend (controllers, services, middleware)
+
+  
 ### Rule-Based Validation Engine
 - Define per-request validation rules that are checked against every response:
   - `expectedStatus` — exact status code match
@@ -238,15 +250,9 @@ Both are optional — the server defaults to port 5000 and the local MongoDB URI
 
 **Analytics Tab — Per-endpoint stats and trend chart**
 
-*(Add screenshot here)*
-
 **Insights Tab — Failure patterns, severity breakdown, unstable endpoints**
 
-*(Add screenshot here)*
-
 **History Tab — Filterable request log with export options**
-
-*(Add screenshot here)*
 
 ---
 
