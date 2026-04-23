@@ -4,6 +4,26 @@ A full-stack API testing and validation platform with an intelligent failure ins
 
 ---
 
+Live Demo: Coming soon  
+Backend: Node.js + Express  
+Frontend: React + Vite  
+Database: MongoDB
+
+---
+
+## Why This Exists
+
+Most API testing tools stop at responses. They show status codes and payloads, but they don’t explain failures.
+
+This project focuses on **failure reasoning**, helping developers understand:
+- Why an API failed
+- Whether the failure is critical
+- Patterns across multiple requests
+
+It behaves more like a debugging assistant than a simple API client.
+
+---
+
 ## What Makes This Different
 
 Most API testers tell you *what* happened (status code, response time). This one tells you *why* it happened. The built-in **Failure Insights Engine** analyzes every response — across error type, HTTP semantics, performance thresholds, response body quality, and rule violations — and surfaces actionable, human-readable explanations with severity ratings.
