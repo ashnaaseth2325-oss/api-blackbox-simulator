@@ -1,6 +1,6 @@
 # API Blackbox Tester
 
-A full-stack API testing and validation platform with an intelligent failure insights engine. Send requests, enforce custom validation rules, run automated stress tests, and get AI-style explanations for why your endpoints fail — all in one tool.
+A full-stack API testing and validation platform with an intelligent failure insights engine. Send requests, enforce custom validation rules, run automated stress tests, and get AI-style explanations for why your endpoints fail ; all in one tool.
 
 ---
 
@@ -26,7 +26,7 @@ It behaves more like a debugging assistant than a simple API client.
 
 ## What Makes This Different
 
-Most API testers tell you *what* happened (status code, response time). This one tells you *why* it happened. The built-in **Failure Insights Engine** analyzes every response — across error type, HTTP semantics, performance thresholds, response body quality, and rule violations — and surfaces actionable, human-readable explanations with severity ratings.
+Most API testers tell you *what* happened (status code, response time). This one tells you *why* it happened. The built-in **Failure Insights Engine** analyzes every response, across error type, HTTP semantics, performance thresholds, response body quality, and rule violations; and surfaces actionable, human-readable explanations with severity ratings.
 
 ---
 
@@ -58,7 +58,7 @@ Most API testers tell you *what* happened (status code, response time). This one
 - Filter history by status (All / Passed / Failed) and delete individual entries or clear all
 - Export history as **JSON** or **CSV**
 - Per-endpoint analytics: total hits, success rate, avg/min/max response time
-- Trend chart (last 10 requests) — pure CSS bar visualization, no chart library
+- Trend chart (last 10 requests);  pure CSS bar visualization, no chart library
 
 ### Debug Panel
 - Payload sent, response body preview (truncated at 1500 chars), response headers grid, error type pill
