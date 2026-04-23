@@ -283,7 +283,8 @@ api-blackbox-simulator/
 
 ### Tester Interface
 
-(Add screenshot here)
+<img width="887" height="1774" alt="image" src="https://github.com/user-attachments/assets/9ebc03a0-af42-4f34-8cea-fa3a4ca12d60" />
+
 
 ### Analytics Dashboard
 
