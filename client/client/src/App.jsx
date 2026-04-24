@@ -2,7 +2,7 @@ import "./App.css";
 import { useState, useEffect, useRef } from "react";
 import axios from "axios";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = import.meta.env.VITE_API_BASE_URL ?? "";
 const METHODS = ["GET", "POST", "PUT", "DELETE"];
 const PRESET_TESTS = [
   "Empty Body",

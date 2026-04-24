@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "cd client/client && npm install && npm run build",
+  "outputDirectory": "client/client/dist",
+  "rewrites": [
+    { "source": "/test-api/:path*", "destination": "/api/index" },
+    { "source": "/history/:path*",  "destination": "/api/index" },
+    { "source": "/analytics/:path*","destination": "/api/index" },
+    { "source": "/insights/:path*", "destination": "/api/index" },
+    { "source": "/(.*)",            "destination": "/" }
+  ]
+}
