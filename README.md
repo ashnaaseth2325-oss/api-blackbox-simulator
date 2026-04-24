@@ -7,7 +7,7 @@ This system not only executes API requests but also analyzes responses, detects 
 
 ## Live Demo
 
-*Coming soon (deployment in progress)*
+api-blackbox-simulator.vercel.app
 
 ---
 
