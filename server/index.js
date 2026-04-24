@@ -14,6 +14,11 @@ connectDB();
 app.use(cors());
 app.use(express.json({ limit: "10mb" }));
 
+app.use(async (req, res, next) => {
+  await connectDB();
+  next();
+});
+
 app.use("/test-api", testRoutes);
 app.use("/history", historyRoutes);
 app.use("/analytics", analyticsRoutes);

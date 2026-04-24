@@ -10,7 +10,7 @@ const connectDB = async () => {
 
   if (!cached.promise) {
     cached.promise = mongoose
-      .connect(uri, { serverSelectionTimeoutMS: 3000, bufferCommands: false })
+      .connect(uri, { serverSelectionTimeoutMS: 5000 })
       .then((m) => m)
       .catch((err) => {
         cached.promise = null;
